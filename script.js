@@ -1,1 +1,0 @@
-function checkAnswers(ans){let s=0;for(let i=0;i<ans.length;i++){let v=document.querySelector('input[name=q'+i+']:checked');if(v&&v.value===ans[i])s++;}document.getElementById('result').innerHTML='Score: '+s+'/'+ans.length;}
